@@ -22,3 +22,15 @@ binarySearchTree.insert(100)
 binarySearchTree.insert(50)
 
 print(binarySearchTree.toArray())
+
+
+// Graph
+
+let undirectedGraph = Graph<Int>()
+
+undirectedGraph.insert(new: 10, connectedTo: [])
+undirectedGraph.insert(new: 20, connectedTo: [10])
+undirectedGraph.insert(new: 5, connectedTo: [20])
+
+
+undirectedGraph.printAdjacencyList()
