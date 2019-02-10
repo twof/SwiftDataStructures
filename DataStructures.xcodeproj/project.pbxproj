@@ -41,10 +41,17 @@
 			remoteGlobalIDString = "DataStructures::DataStructures";
 			remoteInfo = DataStructures;
 		};
+		24234BE9221006B200EAFAE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "DataStructures::DataStructuresTests";
+			remoteInfo = DataStructuresTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"DataStructures::DataStructures::Product" /* DataStructures */ = {isa = PBXFileReference; lastKnownFileType = text; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
+		"DataStructures::DataStructures::Product" /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DataStructures::DataStructuresTests::Product" /* DataStructuresTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		OBJ_11 /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
@@ -256,7 +263,7 @@
 		OBJ_46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "DataStructures::DataStructuresTests" /* DataStructuresTests */;
-			targetProxy = "DataStructures::DataStructuresTests" /* DataStructuresTests */;
+			targetProxy = 24234BE9221006B200EAFAE8 /* PBXContainerItemProxy */;
 		};
 		OBJ_56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -283,7 +290,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = YES;
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = DataStructures;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -308,7 +315,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = YES;
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = DataStructures;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -338,6 +345,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -379,6 +387,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
